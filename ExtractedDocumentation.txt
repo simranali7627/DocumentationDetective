@@ -1,0 +1,49 @@
+All classes in the package 'models': 
+models.StudentDetails
+models.StudentPaymentDetails
+models.StudentScholarship
+
+Classes annotated with '@ClassDocumentation': 
+models.StudentPaymentDetails
+
+Methods annotated with '@MethodDocumentation': 
+public double models.StudentPaymentDetails.getTuitionFee()
+public void models.StudentScholarship.setScholarshipAmount(double)
+public double models.StudentScholarship.getGpa()
+public java.lang.String models.StudentScholarship.getStudentName()
+public void models.StudentDetails.setAge(int)
+public void models.StudentPaymentDetails.setHasPaid(boolean)
+public java.lang.String models.StudentDetails.getAddress()
+
+Classes not annotated with '@ClassDocumentation' but have documentation: 
+
+
+
+Classes annotated with '@ClassDocumentation' but have no javadoc: 
+models.StudentPaymentDetails
+
+Methods not annotated with '@MethodDocumentation' but have javadoc: 
+{models.StudentPaymentDetails.isHasPaid=Checks if the student has paid the tuition fee.
+
+@return {@code true} if the student has paid, {@code false} otherwise.
+, models.StudentScholarship.getScholarshipAmount=Retrieves the amount of the scholarship awarded to the student.
+
+@return The scholarship amount.
+, models.StudentScholarship.displayScholarshipInfo=Displays information about the student's scholarship, including name, GPA, and scholarship amount.
+, models.StudentScholarship.setGpa=Sets the grade point average (GPA) of the student.
+
+@param gpa The GPA of the student.
+, models.StudentPaymentDetails.setTuitionFee=Sets the tuition fee for the student.
+
+@param tuitionFee The new tuition fee.
+, models.StudentScholarship.setStudentName=Sets the name of the student.
+
+@param studentName The name of the student.
+, models.StudentPaymentDetails.toString=Displays information about the student's payment details.
+
+@return A string representation of the payment details.
+}
+
+Methods annotated with '@MethodDocumentation' but have no javadoc: 
+[models.StudentPaymentDetails.setHasPaid, models.StudentPaymentDetails.getTuitionFee, models.StudentDetails.setAge, models.StudentDetails.getAddress]
+
